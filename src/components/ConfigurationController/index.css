@@ -1,0 +1,33 @@
+/* Write your CSS here */
+.cc-bg-container {
+  background-color: #475569;
+  height: 24vh;
+  padding: 10px;
+  padding-left: 50px;
+}
+
+.cc-head {
+  font-family: 'Roboto';
+  color: white;
+  font-size: 30px;
+}
+
+.label-1 {
+  font-family: 'Roboto';
+  color: white;
+  font-size: 18px;
+  margin-left: 15px;
+}
+
+.br {
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 560px) {
+  .label-1 {
+    font-size: 15px;
+  }
+  .cc-head {
+    font-size: 20px;
+  }
+}
